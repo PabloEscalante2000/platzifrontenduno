@@ -1,0 +1,39 @@
+body {
+    background-color: salmon;
+}
+
+#midiv {
+    background: greenyellow;
+}
+
+button {
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+.contenedor {
+    display: flex;
+    background-color:papayawhip;
+    justify-content: space-between;
+    /*align-items: center;*/
+    flex-direction: column;
+    height: 200px;
+}
+.item {
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    
+}
+
+.contenedor .item:nth-child(2n+1){
+    background: red;
+}
+
+.container {
+    display: grid;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
