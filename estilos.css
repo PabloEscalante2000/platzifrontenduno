@@ -1,9 +1,18 @@
+@media (max-width: 500px){
+    body #midiv {
+        background: palevioletred;
+        transition: 0.5s;
+    }
+    
+}
+
 body {
     background-color: salmon;
 }
 
 #midiv {
     background: greenyellow;
+    transition: 0.5s;
 }
 
 button {
